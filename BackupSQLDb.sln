@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "Messages\Messages.csproj", "{1FE65282-5495-40C2-8F55-8436C8FA755A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database.Backup.Server", "Database.Backup.Server\Database.Backup.Server.csproj", "{7ED40365-9E1A-472A-BDC2-2A1338F67DEE}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FE65282-5495-40C2-8F55-8436C8FA755A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE65282-5495-40C2-8F55-8436C8FA755A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE65282-5495-40C2-8F55-8436C8FA755A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE65282-5495-40C2-8F55-8436C8FA755A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ED40365-9E1A-472A-BDC2-2A1338F67DEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED40365-9E1A-472A-BDC2-2A1338F67DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED40365-9E1A-472A-BDC2-2A1338F67DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED40365-9E1A-472A-BDC2-2A1338F67DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
